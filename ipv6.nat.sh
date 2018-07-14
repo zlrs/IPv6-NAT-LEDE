@@ -6,4 +6,3 @@ uci commit network
 
 uci set dhcp.lan.ra_default='1'
 uci commit dhcp
-
