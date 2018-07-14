@@ -7,7 +7,3 @@ uci commit network
 uci set dhcp.lan.ra_default='1'
 uci commit dhcp
 
-#touch /etc/init.d/nat6
-#vi /etc/init.d/nat6
-chmod +x /etc/init.d/nat6
-/etc/init.d/nat6 enable
