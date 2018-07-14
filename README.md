@@ -9,13 +9,14 @@ Configure IPv6 NAT on a LEDE router, using Xiaomi mini as an example
 ### 2. 把nat6和ipv6.nat.sh复制到路由器上
 以Windows 10为例，打开命令行，先cd到下载目录，然后输入
 `scp nat6 ipv6.nat.sh root@192.168.1.1:/tmp`
+（以保存到/tmp为例，下同）
 ### 3. 在路由器上执行以下命令
 ```
 cd /tmp
 cp nat6 /etc/init.d/nat6
 chmod +x ipv6.nat.sh
 chmod +x /etc/init.d/nat6
-./ipv6.nat.sh
+/tmp/ipv6.nat.sh
 /etc/init.d/nat6 enable
 ```
 
