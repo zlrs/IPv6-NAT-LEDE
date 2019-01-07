@@ -1,6 +1,7 @@
 # IPv6-NAT-LEDE
 Configure IPv6 NAT on a LEDE router, using Xiaomi mini as an example
-博客有刚详细的使用教程：[UESTC校园网用OpenWrt路由器配置IPv6 NAT](https://www.jianshu.com/p/6eb97552fecf)
+
+博客有更详细的使用教程：[UESTC校园网用OpenWrt路由器配置IPv6 NAT](https://www.jianshu.com/p/6eb97552fecf)
 
 本项目在此环境下测试通过：
 * 小米路由器mini with LEDE
