@@ -24,9 +24,7 @@ chmod +x /etc/init.d/nat6
 /etc/init.d/nat6 enable
 ```
 
-
----
-### 测试
+## 测试
 1. 以Windows为例，查看网卡状态，看IPv6连接一行是否显示连接到Internet
 ![查看网卡状态](https://upload-images.jianshu.io/upload_images/12657570-e4e03fbbaadd1350.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 2. 访问以下两个测试IPv6的网站，选择一个测试即可
